@@ -1,8 +1,5 @@
 # Learning SystemVerilog
 Timeline
-00 sv practice phase-1
-01 User defined primitives (UDP) practice
-02 sv practice phase-2
 
 | Folder                                    | Timeline                   | Status    |
 | ----------------------------------------- | -------------------------- | --------- |
