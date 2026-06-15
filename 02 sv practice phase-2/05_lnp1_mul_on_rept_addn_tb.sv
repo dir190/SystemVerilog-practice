@@ -1,7 +1,7 @@
 // FSMD Finite State Machine with Datapath
 // This testbench file with Design file is named as prefix lnp1 means "Learning and practicing 1st design"
 // Design an unsigned multiplier which works on the principal of repeated addition
-// Below is the datapath given
+// Below is the flowchart given
 // Step 1: read(Input) A and B (B != 0) , A and B are 16 bit binary numbers
 // Step 2: input and initialise P = 0
 // Step 3: P = P + A

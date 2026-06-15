@@ -1,7 +1,7 @@
 // FSMD Finite State Machine with Datapath
 // This Design file with testbench file is named as prefix lnp2 means "Learning and practicing 2st design"
 // Design an GCD Computation machine
-// Below is the datapath given
+// Below is the flowchart given
 // Step 1: Input A and B , A and B are 16 bit binary numbers
 // Step 2: If A > B then A - B else if A < B then B - A else if A = B then output A/B
 // Step 3: Stop
@@ -69,8 +69,9 @@ module gcd_controlpath(
         if (rst) state <= S0;
         else begin
             case (state)
-                S0 : begin if (start) state <= S1;
-                           else       state <= S0;
+                S0 : begin 
+                    if (start) state <= S1;
+                    else       state <= S0;
                 end
                 S1 : state <= S2;
                 S2 : begin
