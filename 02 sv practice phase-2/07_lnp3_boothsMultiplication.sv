@@ -11,17 +11,6 @@
 // then if counter is not equal to 0 then again compare B[0] : B_n_minus_one
 // If counter is equal to 0 then stop
 
-/*
-module comparator(
-    output grt, less, eq,
-    input in1,in2
-);
-    assign grt = (in1 > in2);
-    assign less = (in1 < in2);
-    assign eq = (in1 == in2);
-endmodule
-*/
-
 module shiftreg (
     output reg [15:0] d_out,
     input [15:0] d_in,
