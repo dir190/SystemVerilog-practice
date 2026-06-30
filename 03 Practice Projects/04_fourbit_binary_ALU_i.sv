@@ -13,10 +13,6 @@
 //                 with active-high asynchronous reset.
 //==============================================================================
 
-// Learnt / What's optimised code
-// Introduced a "sub_cont" input which can be used to handle addition and subtraction using only one module
-
-
 module alu (
     input [3:0] in1, in2,
     input start, clk, rst, restart,
